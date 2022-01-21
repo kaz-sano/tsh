@@ -1,14 +1,18 @@
 #include <stdio.h>
 #include <unistd.h>
 
-int main(){
+int main(int argc, char **argv){
 
-  char *arglist[3];
-  arglist[0] = "ls";
-  arglist[1] = "-l";
-  arglist[2] = 0;
-  printf("exec ls -l\n");
-  execvp("ls", arglist);
-  printf("done\n");
+  char *argbuf[argc + 1];
+  int i;
+
+  for (i = 0; i < argc; i++) {
+    argbuf[i] = argv[i + 1];
+    if (i == argc -1) {
+      argbuf[i] = 0;
+    }
+  }
+
+  execvp(argbuf[0], argbuf);
 
 }
