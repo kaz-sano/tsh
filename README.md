@@ -1,1 +1,2 @@
-# Tiny-shell
+# tsh
+a tiny shell written in c.
