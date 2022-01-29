@@ -1,5 +1,5 @@
 # tsh
-a tiny shell written in c.
+tsh is a tiny shell written in c.
 
 support XXX XXX
 
