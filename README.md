@@ -3,12 +3,7 @@ tsh is a tiny shell written in c.
 
 support XXX XXX
 
-
-ubuntu 20.04 LTS
-gcc version
-binutils
-uname
-
-to be add
-pipe and redirection
-builtin
+X86_64
+Linux 5.4.0-96-generic
+ubuntu 20.04.3 LTS
+gcc version 9.3.0
