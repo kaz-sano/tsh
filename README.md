@@ -1,7 +1,5 @@
 # tsh
 tsh is a tiny shell written in c.
 
-- X86_64
-- Linux 5.4.0-96-generic
-- ubuntu 20.04.3 LTS
-- gcc version 9.3.0
+All codes were written and build on ubuntu 20.04.03 LTS with gcc version 9.3.0.
+X86_64
